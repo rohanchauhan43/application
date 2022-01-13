@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(90deg, #410076, #8820dd);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(90deg, #410076, #8820dd);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+  }
+  
+  th {
+  border-bottom: 1px solid black;
+  }
+  
+  td {
+  text-align: center;
+  }
+  
+  
+  /* MultiColorProgressBar */
+
+  .multicolor-bar {
+    margin: 20px 20%;
+  }
+  
+  .multicolor-bar .values .value {
+    float: left;
+    text-align: center;
+  }
+  
+  .multicolor-bar .scale .graduation {
+    float: left;
+    text-align: center;
+  }
+  
+  .multicolor-bar .bars .bar {
+    float: left;
+    height: 10px;
+  }
+  
+  .multicolor-bar .bars div.bar:first-of-type {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+  }
+  
+  .multicolor-bar .bars div.bar:last-of-type {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  
+  .multicolor-bar .legends {
+    text-align: center;
+  }
+  
+  
+  .multicolor-bar .legends .legend {
+      display: inline-block;
+      margin: 0 5px;
+      text-align: center;
+  }
+  
+  .multicolor-bar .legends .legend .dot {
+    font-size: 25px;
+    vertical-align: middle;
+  }
+  
+  .multicolor-bar .legends .legend .label {
+    margin-left: 2px;
+    vertical-align: middle;
+  }
